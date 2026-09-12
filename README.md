@@ -1,50 +1,69 @@
-# 杨超·演示设计 2.2.1
+# 高质感 HTML 演示文稿设计技能
 
-给材料，做演示。保持纸墨空间证据风格，按内容设计，不套固定页面。
+把提纲、逐字稿或资料，变成**好看，也好讲的网页演示**。不只是换模板，而是根据内容设计排版、配图与动效。
 
-**[查看使用说明与在线示例](https://dedao.feishuapp.com/app/app_17dx4ayjc81/)** · **[下载 WorkBuddy 技能包 v2.2.1](https://github.com/deanyes/yangchao-presentation-design/raw/refs/heads/main/yangchao-presentation-design-v2.2.1.zip)**
+适用于 **Codex、豆包工作、Claude Code（CC）、WorkBuddy** 等能够读取技能文件、生成 HTML 的 AI 工作工具。
 
-本仓库提供完整的技能安装包；源码、模板与参考资料均包含在 ZIP 中。请下载上面的技能包，不要把 GitHub 的「Code → Download ZIP」仓库打包文件当成技能安装包。
+**[下载技能包 v2.2.1](https://github.com/deanyes/yangchao-presentation-design/raw/refs/heads/main/yangchao-presentation-design-v2.2.1.zip)** · **[查看使用说明](https://dedao.feishuapp.com/app/app_17dx4ayjc81/)**
 
-## 三步开始
+## 先看实际效果
 
-1. 在 WorkBuddy「技能 → 添加技能 → 导入技能」上传本 ZIP。
-2. 导入后的技能标识是 `yangchao-presentation-design`，不是中文名。
-3. 新建对话，上传自己的内容并说：
+同一套技能，围绕两个 15 分钟分享主题制作。下面是 **Codex 与 WorkBuddy 的真实成品截图**，经过实际制作与迭代，不是“一次生成即可完全一致”的承诺。选取不同页面，展示各自的排版与表达方式。
+
+### 社区花园雨水利用
+
+| Codex 制作 · 开场与实景 | WorkBuddy 制作 · 结构与流程 |
+| --- | --- |
+| ![Codex 示例：让一场雨，多留一会儿。黑底大标题与雨水花园实景照片。](codex-rain-garden.png) | ![WorkBuddy 示例：雨水花园剖面图，用分层结构解释雨水如何流动。](workbuddy-rain-garden.png) |
+| [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/rain-garden-15/index.html) | [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/workbuddy-rain-garden-15/index.html) |
+
+### 养老规划
+
+| Codex 制作 · 收支缺口 | WorkBuddy 制作 · 时间与积累 |
+| --- | --- |
+| ![Codex 示例：将计划支出与收入放在同一把尺上，用对比条形图展示缺口。](codex-retirement.png) | ![WorkBuddy 示例：用对比图展示不同起步时间带来的积累差异。](workbuddy-retirement.png) |
+| [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/retirement-15/index.html) | [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/workbuddy-retirement-15/index.html) |
+
+GitHub README 展示静态预览；翻页、概览和动效可在完整演示中体验。养老示例中的数字用于教学说明，不构成收益承诺或投资建议。
+
+## 是什么风格？
+
+**编辑式排版 × 空间证据**：纸白与墨黑打底，粗黑体与宋体搭配，大标题配留白。让图片、数据和关系成为主角，用动效帮助听众看懂变化。
+
+- **不硬套页面**：根据观点、对比、流程、证据等内容选择呈现方式。
+- **不乱加动效**：该自动播放的直接播放，需要配合讲述的分步展开。
+- **不把逐字稿搬上屏**：区分听众要看的信息和讲者口述的内容。
+- **交付前逐页检查**：检查遮挡、裁切、字号、图片比例和翻页交互。
+
+## 怎么用？
+
+### 1. 下载技能包
+
+下载上面的 **`yangchao-presentation-design-v2.2.1.zip`**。不要把 GitHub 的「Code → Download ZIP」当成技能安装包。
+
+### 2. 交给你使用的 AI 工具
+
+- **WorkBuddy**：在「技能 → 添加技能 → 导入技能」中上传技能包。
+- **Codex、豆包工作、Claude Code（CC）**：按工具支持的方式安装本地技能；也可以解压整个技能文件夹，放进当前项目，让 AI 读取其中的 `SKILL.md` 及其引用文件。不要只复制单独一份 `SKILL.md`。
+
+不同工具的安装入口不相同。技能标识统一为 **`yangchao-presentation-design`**。
+
+### 3. 发材料，说需求
+
+上传你的提纲、逐字稿、图片或数据，再发这句话：
 
 > 请使用 yangchao-presentation-design 技能，把这些材料做成一份适合 15 分钟分享的网页演示文稿。保持技能默认风格，根据内容设计排版、配图与动效，并逐页检查。
 
-不用填设计表。听众和时长按自己的情况补充。生成的是浏览器 HTML 演示，不是 PowerPoint 文件。
+把时长改成自己的需要，也可以补一句“听众是谁”。**不需要你写代码或先填设计表**。生成的是用浏览器播放的 HTML 演示，不是 PowerPoint 文件。
 
-## 这套技能做什么
+本页展示的是 Codex 和 WorkBuddy 的实际效果；不同工具与模型的输出会有差异，仍需要结合内容迭代。
 
-- **内容决定页面**：先判断要表达的观点、证据与关系，再选择构图，不要求把新内容塞进固定的二十几页。
-- **统一视觉语言**：暖纸与墨黑、粗黑体与宋体、信号色和留白；不同主题保持质感，但不套同一页型。
-- **动效服务讲述**：用出现、聚焦、移动和连接表达信息关系，而不只是给每块文字加一个入场动画。
-- **逐页检查**：区分上屏内容与讲者备稿，检查遮挡、裁切、可读性、图片比例和演示交互。
+## 包里有什么？
 
-在线页面提供「社区花园雨水利用」「养老规划」两个由杨超使用 WorkBuddy 与本技能制作的示例。示例播放器的线上兼容修复独立于本仓库 v2.2.1 技能包，不代表技能包已包含全部网站改动。
+完整技能源码随 ZIP 提供，包括 `SKILL.md`、设计与动效规范、空白演示底座、创建与检查脚本，以及按需参考的历史案例。它是一套制作标准，不是固定的成品页模板。
 
-## 技能包内容
+## 来源与致谢
 
-- `SKILL.md`：技能入口与执行流程。
-- `references/`：设计判断、视觉标准、动效与质量检查。
-- `templates/starter/`：空白技术底座，不预设分享页序。
-- `scripts/`：创建演示与基础检查脚本。
-- `examples/original-talk/`：历史案例，仅供按需参考。
+由杨超结合实际分享制作中的多轮改稿经验整理。演示技术底座派生自 [花叔 Huashu Design](https://github.com/alchaincyf/huashu-design)，视觉思路参考 FIELD.IO。保留 [上游 MIT 许可全文](LICENSE-HUASHU.txt)，详见 [来源与致谢](CREDITS.md)。上游许可覆盖对应上游内容，不自动适用于本仓库全部新增内容。
 
-## 已安装旧版
-
-请确认调用新版；不同版本不要同时调用。不代替你卸载旧技能，也不承诺 WorkBuddy 一定支持覆盖安装。若仍存在 spatial-evidence-slides，可手动停用旧技能。建议新建对话并重新提供原始材料，避免旧对话的“复制母版”要求影响结果。
-
-## 本次调整
-
-补齐与原分享一致的粗黑体／宋体搭配、字重、行距和字距规范；修正概览入口与刷新行为。风格保持一致，页面仍由内容决定，不新增行业专用成品页。
-
-来源见 CREDITS.md，保留上游 MIT 许可。基础检查和浏览器示例验证不等于 WorkBuddy 导入与新任务生成已实测；不同模型不保证完全相同的输出。
-
-## 来源与许可
-
-演示技术底座派生自花叔 [Huashu Design](https://github.com/alchaincyf/huashu-design)，保留 [上游 MIT 许可全文](LICENSE-HUASHU.txt)；视觉思路参考 FIELD.IO，并融入杨超多轮制作的改稿经验。详见 [来源与致谢](CREDITS.md)。
-
-上游 MIT 许可只覆盖对应上游内容，不自动将本仓库全部新增内容标为 MIT。
+Codex 雨水花园预览中的照片来自 Rogersoh 的 [Rain garden overview](https://commons.wikimedia.org/wiki/File:Rain_garden_overview.jpg)，采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 许可，演示中作了裁切。
