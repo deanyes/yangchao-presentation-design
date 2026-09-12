@@ -12,16 +12,18 @@
 
 ### 社区花园雨水利用
 
-| Codex 制作 · 开场与实景 | WorkBuddy 制作 · 结构与流程 |
+点击预览图，直接进入对应演示的这一页。
+
+| Codex 制作 · 第 8 页 | WorkBuddy 制作 · 第 3 页 |
 | --- | --- |
-| ![Codex 示例：让一场雨，多留一会儿。黑底大标题与雨水花园实景照片。](codex-rain-garden.png) | ![WorkBuddy 示例：雨水花园剖面图，用分层结构解释雨水如何流动。](workbuddy-rain-garden.png) |
+| [![Codex 花园第 8 页：雨水花园概念剖面，展示地上与地下的作用。](codex-rain-garden.png)](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/rain-garden-15/index.html#8) | [![WorkBuddy 花园第 3 页：用屋顶面积、降雨量和桶装水解释雨水体量。](workbuddy-rain-garden.png)](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/workbuddy-rain-garden-15/index.html#3) |
 | [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/rain-garden-15/index.html) | [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/workbuddy-rain-garden-15/index.html) |
 
 ### 养老规划
 
-| Codex 制作 · 收支缺口 | WorkBuddy 制作 · 时间与积累 |
+| Codex 制作 · 第 7 页 | WorkBuddy 制作 · 第 6 页 |
 | --- | --- |
-| ![Codex 示例：将计划支出与收入放在同一把尺上，用对比条形图展示缺口。](codex-retirement.png) | ![WorkBuddy 示例：用对比图展示不同起步时间带来的积累差异。](workbuddy-retirement.png) |
+| [![Codex 养老第 7 页：十二个月的差额累积为全年需要安排的资金。](codex-retirement.png)](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/retirement-15/index.html#7) | [![WorkBuddy 养老第 6 页：以点阵和大数字展示企业年金覆盖率。](workbuddy-retirement.png)](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/workbuddy-retirement-15/index.html#6) |
 | [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/retirement-15/index.html) | [播放完整演示](https://dedao.feishuapp.com/app/app_17dx4ayjc81/showcase/examples/workbuddy-retirement-15/index.html) |
 
 GitHub README 展示静态预览；翻页、概览和动效可在完整演示中体验。养老示例中的数字用于教学说明，不构成收益承诺或投资建议。
@@ -76,4 +78,4 @@ GitHub README 展示静态预览；翻页、概览和动效可在完整演示中
 
 由杨超结合实际分享制作中的多轮改稿经验整理。演示技术底座派生自 [花叔 Huashu Design](https://github.com/alchaincyf/huashu-design)，视觉思路参考 FIELD.IO。保留 [上游 MIT 许可全文](LICENSE-HUASHU.txt)，详见 [来源与致谢](CREDITS.md)。上游许可覆盖对应上游内容，不自动适用于本仓库全部新增内容。
 
-Codex 雨水花园预览中的照片来自 Rogersoh 的 [Rain garden overview](https://commons.wikimedia.org/wiki/File:Rain_garden_overview.jpg)，采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 许可，演示中作了裁切。
+Codex 雨水花园完整演示中的照片来自 Rogersoh 的 [Rain garden overview](https://commons.wikimedia.org/wiki/File:Rain_garden_overview.jpg)，采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 许可，演示中作了裁切。
